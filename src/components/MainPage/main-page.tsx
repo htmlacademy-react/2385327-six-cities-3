@@ -1,4 +1,4 @@
-import OfferCard from '../OfferCard/OfferCard';
+import OfferCard from '../OfferCard/offer-card';
 import { FirstOfferCardSettings, SecondOfferCardSettings, ThirdOfferCardSettings, FourthOfferCardSettings, FifthOfferCardSettings } from '../../const';
 
 
@@ -93,11 +93,11 @@ export default function MainPage(){
                 </ul>
               </form>
               <div className="cities__places-list places__list tabs__content">
-                <OfferCard price={FirstOfferCardSettings.price} imageSrc={FirstOfferCardSettings.imageSrc} heading={FirstOfferCardSettings.heading} type={FirstOfferCardSettings.type}></OfferCard>
-                <OfferCard price={SecondOfferCardSettings.price} imageSrc={SecondOfferCardSettings.imageSrc} heading={SecondOfferCardSettings.heading} type={SecondOfferCardSettings.type}></OfferCard>
-                <OfferCard price={ThirdOfferCardSettings.price} imageSrc={ThirdOfferCardSettings.imageSrc} heading={FifthOfferCardSettings.heading} type={FifthOfferCardSettings.type}></OfferCard>
-                <OfferCard price={FourthOfferCardSettings.price} imageSrc={FourthOfferCardSettings.imageSrc} heading={FourthOfferCardSettings.heading} type={FourthOfferCardSettings.type}></OfferCard>
-                <OfferCard price={FifthOfferCardSettings.price} imageSrc={FifthOfferCardSettings.imageSrc} heading={FifthOfferCardSettings.heading} type={FifthOfferCardSettings.type}></OfferCard>
+                <OfferCard price={FirstOfferCardSettings.price} imageSrc={FirstOfferCardSettings.imageSrc} heading={FirstOfferCardSettings.heading} type={FirstOfferCardSettings.type}/>
+                <OfferCard price={SecondOfferCardSettings.price} imageSrc={SecondOfferCardSettings.imageSrc} heading={SecondOfferCardSettings.heading} type={SecondOfferCardSettings.type}/>
+                <OfferCard price={ThirdOfferCardSettings.price} imageSrc={ThirdOfferCardSettings.imageSrc} heading={FifthOfferCardSettings.heading} type={FifthOfferCardSettings.type}/>
+                <OfferCard price={FourthOfferCardSettings.price} imageSrc={FourthOfferCardSettings.imageSrc} heading={FourthOfferCardSettings.heading} type={FourthOfferCardSettings.type}/>
+                <OfferCard price={FifthOfferCardSettings.price} imageSrc={FifthOfferCardSettings.imageSrc} heading={FifthOfferCardSettings.heading} type={FifthOfferCardSettings.type}/>
 
 
               </div>

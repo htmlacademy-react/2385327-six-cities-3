@@ -1,4 +1,4 @@
-import PremiumMark from '../PremiumMark/PremiumMark';
+import PremiumMark from '../PremiumMark/premium-mark';
 
 type OfferCardProps = {
   price: number;
@@ -10,7 +10,7 @@ type OfferCardProps = {
 export default function OfferCard({price, imageSrc, heading, type}: OfferCardProps): JSX.Element{
   return(
     <article className="cities__card place-card">
-      <PremiumMark></PremiumMark>
+      <PremiumMark/>
       <div className="cities__image-wrapper place-card__image-wrapper">
         <a href="#">
           <img className="place-card__image" src={imageSrc} width="260" height="200" alt="Place image"/>

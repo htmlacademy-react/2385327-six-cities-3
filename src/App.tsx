@@ -1,9 +1,9 @@
-import '../markup/css/main.css';
-import MainPage from './components/MainPage/MainPage';
+import MainPage from './components/MainPage/main-page';
+import '../public/css/main.css';
 
 export default function App(){
   return (
-    <MainPage></MainPage>
+    <MainPage/>
   );
 }
 
